@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  background-color: rgb(53, 173, 49);
+}
+
+header {
+  background-color: #fffefe;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff8f8;
+  font-weight: bold;
+}
+
+/* Estilos específicos para secciones */
+section {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  color: #000000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+/* Estilos para imágenes */
+#coordinadores img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(255, 252, 252, 0.1);
+}
+
+#rector img {
+  border-radius: 20px;
+}
+#docentes img
+{
+  border-radius: 30px;
+}
+/* Estilos para el footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #0936fd;
+}
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+transition: background-color 0.3s ease;
+}
